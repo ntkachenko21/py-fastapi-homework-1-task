@@ -32,7 +32,9 @@ class MovieDetailResponseSchema(BaseMovieSchema):
                     "date": "2023-03-02",
                     "score": 73,
                     "genre": "Drama,Action",
-                    "overview": "After dominating the boxing world, Adonis Creed has been thriving in both his career and family life...",
+                    "overview": "After dominating the boxing world,"
+                                " Adonis Creed has been thriving"
+                                " in both his career and family life...",
                     "crew": "Michael B. Jordan, Tessa Thompson",
                     "orig_title": "Creed III",
                     "status": "Released",
@@ -59,7 +61,9 @@ class MovieListResponseSchema(BaseModel):
                             "date": "2023-03-02",
                             "score": 73,
                             "genre": "Drama,Action",
-                            "overview": "After dominating the boxing world, Adonis Creed has been thriving in both his career and family life...",
+                            "overview": "After dominating the boxing world,"
+                                        " Adonis Creed has been thriving"
+                                        " in both his career and family life...",
                             "crew": "Michael B. Jordan, Tessa Thompson",
                             "orig_title": "Creed III",
                             "status": "Released",
