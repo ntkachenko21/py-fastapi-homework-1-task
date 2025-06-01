@@ -66,16 +66,16 @@ class MovieListResponseSchema(BaseModel):
                             "orig_lang": "English",
                             "budget": 75000000,
                             "revenue": 271616668,
-                            "country": "AU"
+                            "country": "AU",
                         }
                     ],
                     "prev_page": "/theater/movies/?page=1&per_page=10",
                     "next_page": "/theater/movies/?page=3&per_page=10",
                     "total_pages": 1000,
-                    "total_items": 9999
+                    "total_items": 9999,
                 }
             ]
-        }
+        },
     )
 
     movies: list[MovieDetailResponseSchema]
