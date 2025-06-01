@@ -19,7 +19,7 @@ async def get_movie_list(
         db,
         select(MovieModel),
         additional_data={
-            "url": request.url.path,
+            "url": str(request.url),
         },
     )
 
